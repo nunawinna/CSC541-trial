@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurina Irdina Individual Assignment : Web Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<style>
+	.row {
+	  display: flex;
+	  flex-wrap: wrap;
+	  padding: 0 4px;
+	}
+
+	.column img {
+	  margin-top: 8px;
+	  vertical-align: middle;
+	  width: 35%;
+	}
+
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 800px) {
+	  .column {
+		flex: 50%;
+		max-width: 50%;
+	  }
+	}
+
+	</style>
+  </head>
+  <body>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand">Rina</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="myself.html">Myself</a>
+        <a href="education.html">Education</a>
+        <a href="passion.html">Passion</a>
+        <a href="Photo_gallery.html">Photo Gallery</a>
+        <a href="comment.html">Contact Me</a>
+		<a href="calculator.html">BMI Calculator</a>
+      </div>
+    </header>
+	
+	<section class="education" id="education">
+      <div class="title reveal">
+        <h2 class="section-title">My Education</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Education Background</h2>
+          <p>
+				<ul>
+					<hr>
+					  <li>Elementary School (2010-2015): 
+						<ul>
+						  <li>Sekolah Rendah Islam Al-Amin Bangi</li>
+						  <li>Big exams: SPPIM 2015, UPSR 2015, PSRA 2015</li>
+						</ul>
+					</hr> 
+					  </li>
+					<hr>
+					  <li>Secondary School(2016-2021):
+						<ul>
+						  <li>Sekolah Menengah SRI Al-Amin Bangi</li>
+						  <li>Big exams: PT3 2018, SPPIM 2019, SPM 2020</li>
+						  <li>Pure Science Student </li>
+						</ul>
+					</hr>
+					  </li>
+					<hr>
+					  <li>Matriculation(2021-2022):
+						<ul>
+						  <li>Malacca Matriculation College</li>
+						  <li>Module 3: Computer Science</li>
+						  <li>1 year = 2 semesters</li>
+						  <li>MUET: 4.0</li>
+						</ul>
+					</hr>
+					  </li>
+					<hr>
+					  <li>Degree(2022-now):
+						<ul>
+						  <li>UiTM Shah Alam</li>
+						  <li>Bachelor of Computer Science (Hons.) Multimedia Computing</li>
+						  <li>7 semesters including internship</li>
+						</ul>
+					  </li>
+					</hr>
+					<hr>
+					</hr>
+				</ul>
+			</p>
+          <a href="passion.html" class="btn">My Passion</a>
+        </div>
+        <div class="column col-right reveal">
+		   <div class="row">
+			 <div class="column">
+				 <img src="images/logo sri alabang.png">
+				 <img src="images/logo alabang.jpg">
+				 <img src="images/logo kmm.png">
+				 <img src="images/logo uitm.png">
+			 </div>
+		   </div>
+        </div>
+      </div>
+    </section>
+	
+	<footer class="footer">
+      <span class="footer-title">Nurina Irdina</span>
+      <p>Copyright @2024 <a href="index.html">nuna_winna</a></p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+   </body>
+</html>
